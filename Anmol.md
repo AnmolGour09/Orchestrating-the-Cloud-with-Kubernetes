@@ -6,8 +6,9 @@
 
 
 ```
-gcloud compute instance-groups managed create dev-instance-group --template=dev-instance-template --size=1 --region=[enter region] && gcloud compute instance-groups managed set-autoscaling dev-instance-group --region=[enter region] --min-num-replicas=1 --max-num-replicas=3 --target-cpu-utilization=0.6 --mode=on
-
+curl -LO https://raw.githubusercontent.com/AnmolGour09/Orchestrating-the-Cloud-with-Kubernetes/refs/heads/main/Anmol.sh
+sudo chmod +x Anmol.sh
+./Anmol.sh
 
 ```
 
